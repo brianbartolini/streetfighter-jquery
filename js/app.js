@@ -37,7 +37,7 @@ $(".ryu").mouseenter(function(){
 
 
 	var e = jQuery.Event("keydown");
-	e.which = 88;
+	e.which == 88;
 
 	$(document).keydown(function(e) {
 		$(".ryu-cool").show();
@@ -47,7 +47,7 @@ $(".ryu").mouseenter(function(){
 	})
 
 	var e = jQuery.Event("keyup");
-	e.which = 88;
+	e.which == 88;
 	
 	$(document).keyup(function(e) {
 		$(".ryu-cool").hide();
